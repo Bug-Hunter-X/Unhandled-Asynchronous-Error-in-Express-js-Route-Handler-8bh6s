@@ -1,0 +1,3 @@
+# Unhandled Asynchronous Error in Express.js Route Handler
+
+This repository demonstrates an uncommon error related to unhandled asynchronous errors in Node.js Express.js applications. The `bug.js` file contains code that simulates an asynchronous operation (using `setTimeout`) that might throw an error. This error is not properly caught, causing the server to crash without clear indication of the source of the problem. The `bugSolution.js` file shows how to properly handle this type of error using async/await and try...catch blocks.
